@@ -1,0 +1,62 @@
+@use 'helpers' as *;
+
+html {
+    &.is-lock {
+        overflow: hidden;
+    }
+}
+
+body {
+    font-family: var(--font-family-base);
+    letter-spacing: -0.03em;
+}
+
+main {
+    flex-grow: 1 ;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    color: var(--color-text-primary);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+    font-weight: 700;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-weight: 600;
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    &[class] {
+        text-decoration: none;
+    }
+}
+
+input:focus {
+    outline: none;
+}

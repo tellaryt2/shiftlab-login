@@ -1,0 +1,26 @@
+@use 'helpers' as *;
+
+:root {
+    --color-light: #FFF;
+
+    --color-border-light: #CED2DA;
+
+    --color-text-primary: #141C24;
+    --color-text-secondary: #344051;
+    --color-text-tertiary: #637083;
+    --color-text-quartenery: #97A1AF;
+    --color-text-error: #F64C4C;
+    
+    --color-brand-blue: #1975FF;
+
+    --color-indicator-error: #F64C4C;
+
+    --border: 1px solid var(--color-border-light);
+
+    --font-family-base: 'Inter', sans-serif;
+
+    --container-width: 960px;
+    --container-padding-x: 16px;
+
+    --transition-duration: 0.2s;
+}
